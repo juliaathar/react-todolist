@@ -1,0 +1,81 @@
+
+.task {
+    width: 674.37px;
+    height: 61.73px;
+    /* border: 1px solid #FCFCFC; */
+    padding: 10px;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    justify-content: space-between;
+  }
+  .div-actions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .status-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .task input[type="checkbox"] {
+    margin-right: 10px;
+    width: 27.01px;
+    height: 27.01px;
+  }
+  
+  .task.completed {
+    background-color: #6C45CE; 
+    color: #FCFCFC;
+  }
+  
+  .task.incomplete {
+    background-color: #FCFCFC; 
+  }
+  
+  .task-action-button {
+    width: 27px;
+    height: 27px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+  }
+  
+  .edit-button {
+    background-color: #1E123B; 
+  }
+  
+  .delete-button {
+    background-color: #1E123B; 
+  }
+
+  .task.incomplete {
+    background-color: #FCFCFC; 
+    color: #25282C; 
+  }
+  
+  .task.completed {
+    background-color: #6C45CE; 
+    color: #FCFCFC;
+  }
+  
+  .task.completed input[type="checkbox"] {
+    background-color: #6C45CE; 
+    border: 2px solid #6C45CE; 
+    color: #FCFCFC; 
+  }
+  
+  .task.incomplete input[type="checkbox"] {
+    background-color: #C4A8E2; 
+    border: 2px solid #C4A8E2; 
+    color: #6C45CE; 
+  } 
